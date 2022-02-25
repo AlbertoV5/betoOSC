@@ -17,7 +17,8 @@ public:
   betoOSC(reaper_plugin_info_t* pRec);
   
 private:
-  int mPrevTrackCount = 0;
-  int mGUIToggle = 0;
+	int _iterFxOnOff = 16;
+	int _iterFxMove = 16;
+	int _iterFxMoveSpaces = 16;
 };
 
